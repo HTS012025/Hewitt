@@ -9,8 +9,8 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 20px; /* buffer from edges */
-    background-color: #f9f9f9; /* optional soft background */
-    color: #333;
+    background-color: #f9f9f9; /* soft background */
+    color: #333; /* default text color */
 }
 
 /* Responsive padding for larger screens */
@@ -27,12 +27,12 @@ header {
     background-color: #28a745; /* green background */
     color: #000; /* black text */
     padding: 20px; /* space inside the header */
-    border-radius: 8px; /* optional rounded corners */
+    border-radius: 8px; /* rounded corners */
 }
 
 header h1 {
     font-size: 2rem;
-    color: inherit; /* ensures header text stays black */
+    color: inherit; /* inherits black from header */
     margin: 0; /* removes extra spacing */
 }
 
@@ -46,13 +46,13 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #1a73e8;
+    color: #1a73e8; /* blue links */
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #0b51c1;
+    color: #0b51c1; /* darker blue on hover */
 }
 
 /* Main content styling */
@@ -72,5 +72,6 @@ footer {
     font-size: 0.9rem;
     color: #777;
 }
+
 
 
