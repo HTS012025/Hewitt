@@ -41,22 +41,23 @@ nav {
     gap: 20px;
     background-color: #28a745; /* same green as header */
     padding: 10px 0;
-    border-radius: 0 0 8px 8px; /* rounded bottom corners only */
+    border-radius: 0 0 8px 8px;
 }
 
 nav a {
     text-decoration: none;
-    color: #000; /* black text */
+    color: #000 !important; /* black text forced */
     font-weight: bold;
-    padding: 8px 15px; /* adds space around each button */
+    padding: 8px 15px;
     transition: background-color 0.3s, color 0.3s;
-    border-radius: 5px; /* slightly rounded nav buttons */
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #218838; /* slightly darker green on hover */
-    color: #fff; /* text turns white on hover */
+    background-color: #218838;
+    color: #fff !important; /* white text on hover */
 }
+
 
 /* Main content styling */
 main {
@@ -75,5 +76,6 @@ footer {
     font-size: 0.9rem;
     color: #777;
 }
+
 
 
