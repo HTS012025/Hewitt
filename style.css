@@ -20,32 +20,34 @@ body {
     }
 }
 
-/* Header */
+/* Header styling */
 header {
-    background-color: #8F9779 !important; /* sage green */
+    background-color: #8F9779 !important; /* sage green background */
     color: #fff !important; /* white text */
     padding: 20px;
     text-align: center;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 0 0; /* rounded top corners */
 }
 
 header h1 {
+    font-size: 2rem;
     color: inherit !important; /* white text */
+    margin: 0;
 }
 
-/* Nav */
+/* Navigation styling */
 nav {
-    background-color: #8F9779 !important; /* same sage green */
     display: flex;
     justify-content: center;
     gap: 20px;
+    background-color: #8F9779 !important; /* same sage green as header */
     padding: 10px 0;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 8px 8px; /* rounded bottom corners */
 }
 
 nav a {
-    color: #fff !important; /* white text for nav links */
     text-decoration: none;
+    color: #fff !important; /* white text */
     font-weight: bold;
     padding: 8px 15px;
     border-radius: 5px;
@@ -53,8 +55,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #6B8E23 !important; /* darker sage */
-    color: #fff !important;
+    background-color: #6B8E23 !important; /* darker sage green on hover */
+    color: #fff !important; /* stays white */
 }
 
 /* Main content styling */
@@ -74,5 +76,3 @@ footer {
     font-size: 0.9rem;
     color: #777;
 }
-
-
