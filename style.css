@@ -9,20 +9,13 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 20px;
-    background-color: #f9f9f9; /* soft page background */
-    color: #333; /* default text color */
-}
-
-/* Responsive padding for larger screens */
-@media (min-width: 768px) {
-    body {
-        padding: 40px;
-    }
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 /* Header and Navigation Banner */
 header {
-    background-color: #9CAF88 !important; /* brighter sage green */
+    background-color: #8A9A5B !important; /* sage green‑like colour */
     color: #fff !important; /* white text */
     text-align: center;
     padding: 25px 0;
@@ -30,7 +23,7 @@ header {
 
 header h1 {
     font-size: 2rem;
-    margin-bottom: 15px; /* space between title and nav */
+    margin-bottom: 15px;
 }
 
 header nav {
@@ -41,15 +34,15 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: #fff !important; /* white links */
+    color: #fff !important;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background 0.3s;
 }
 
 header nav a:hover {
-    background-color: #7F9A6E !important; /* slightly darker sage green on hover */
+    background-color: #6B7C45 !important; /* darker sage hover */
     color: #fff !important;
 }
 
